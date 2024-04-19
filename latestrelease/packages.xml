@@ -1,9 +1,9 @@
 
 					<packages>
-						<package name="NewPackageIvy" version="6.14.5" os="all" url="NewPackageIvy/NewPackageIvy-6.14.5-all.zip" desc="New Package with Ivy" org="Eindhoven University of Technology" license="GPL" author="H.M.W. Verbeek" auto="false" hasPlugins="true" logo="prom_subtitle_hat_300.png">
+						<package name="DataAwareReplayer" version="6.14.1" os="all" url="DataAwareReplayer/DataAwareReplayer-6.14.1-all.zip" desc="Multi-perspective Process Conformance Checking based on Alignments. Implements techniques presented in the article: 'Balanced multi-perspective checking of process conformance' (DOI: 10.1007/s00607-015-0441-1)" org="Eindhoven University of Technology" license="GPL" author="Massimiliano de Leoni, Felix Mannhardt" auto="false" hasPlugins="true" logo="prom_subtitle_hat_300.png">
 				    	<dependency org="prom" name="ProM-Plugins" rev="latest" changing="true" transitive="true" />
-    	<dependency org="prom" name="BasicUtils" rev="latest" changing="true" transitive="true" />
-    	<dependency org="prom" name="Widgets" rev="latest" changing="true" transitive="true" />
+    	<dependency org="prom" name="DataAwareReplayerLGPL" rev="latest" changing="true" transitive="true" />
+    	<dependency org="prom" name="DataPetriNets" rev="latest" changing="true" transitive="true" />
 
 						</package>
 					</packages>
